@@ -18,7 +18,7 @@ function App(){
     <Routes>
     
      
-      <Route path="/" element={<Menus/>}/>
+      <Route path="/reactfoodappone" element={<Menus/>}/>
       <Route path="/products" element={<Products/>}/>
       <Route path="/contact" element={<Contact/>}/>
 
