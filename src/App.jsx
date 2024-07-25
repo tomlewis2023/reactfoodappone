@@ -14,6 +14,7 @@ function App(){
     <div>
     
     <Header/>
+    <BrowserRouter basename="/reactfoodappone">
     <Routes>
     
      
@@ -24,6 +25,7 @@ function App(){
      
     
     </Routes>
+    </BrowserRouter>
    
     </div>
   )
