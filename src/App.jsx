@@ -14,18 +14,18 @@ function App(){
     <div>
     
     <Header/>
-    <BrowserRouter basename="/reactfoodappone">
+    
     <Routes>
     
      
-      <Route path="/reactfoodappone" element={<Menus/>}/>
+      <Route path="/" element={<Menus/>}/>
       <Route path="/products" element={<Products/>}/>
       <Route path="/contact" element={<Contact/>}/>
 
      
     
     </Routes>
-    </BrowserRouter>
+    
    
     </div>
   )
